@@ -82,6 +82,7 @@ header .navbar .primary:hover{
 .about .div-about .img-about img {
     border-radius: 0.5em;
     width: 550px;
+    height: 480px;
 }
 
 .about .div-about:last-child {
