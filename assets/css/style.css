@@ -150,11 +150,13 @@ header .navbar .primary:hover{
 .post-index .post-left {
     width: 640px;
     float: left;
+    box-shadow:  rgba(0, 0, 0, 0.2);
 }
 
 .post-index .post-right{
     width: 240px;
     float: right;
+    box-shadow: 10px 1 12px 12px rgba(0, 0, 0, 0.2);
 }
 
 .post-index .post-left .post {
@@ -184,6 +186,30 @@ header .navbar .primary:hover{
     padding-bottom: 0.4em;
     font-size: 0.9em;
 }
+
+.post-index .post-right .post {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post-index .post-right .post h2{
+    background: var(--color-primary-backgroud);
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1px 0 2px 0;
+    color: var(--color-secondary);
+    margin-bottom: 10px;
+}
+
+.post-index .post-right .post p{
+    text-align: left;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
 
 /*Rodapé*/
 footer {
