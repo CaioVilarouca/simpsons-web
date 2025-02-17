@@ -8,7 +8,7 @@
 
 :root {
     --color-primary:#ff0000;
-    --color-primary-backgroud:#fda90d;
+    --color-primary-backgroud:#f7b600;
     --color-secondary: #f0e9e9;
 }
 
@@ -141,6 +141,50 @@ header .navbar .primary:hover{
     font-weight: 700;
 }
 
+/*blog*/
+.post-index {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.post-index .post-left {
+    width: 640px;
+    float: left;
+}
+
+.post-index .post-right{
+    width: 240px;
+    float: right;
+}
+
+.post-index .post-left .post {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.post-index .post-left .post img{
+    width: 600px;
+}
+
+.post-index .post-left .post h2{
+    color: var(--color-primary);
+}
+
+.post-index .post-left .post span {
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #0000;
+}
+
+.post-index .post-left .post p {
+    text-align: justify;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    font-size: 0.9em;
+}
+
 /*Rodapé*/
 footer {
     text-align: center;
@@ -149,8 +193,3 @@ footer {
 footer img { 
     height: 230px;
 }
-
-.hist img{
-    width: 1000px;
-}
-
