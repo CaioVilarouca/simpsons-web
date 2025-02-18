@@ -212,6 +212,27 @@ header .navbar .primary:hover{
     color: rgba(0, 0, 0, 0.5);
 }
 
+.galley{
+    width: 920px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.galley .div-columns img {
+    width: 200px;
+    padding: 10px;
+}
+
+.galley .div-columns {
+    display: inline-block;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.galley .div-columns:hover {
+    background: var(--color-primary-backgroud);
+}
+
 /*Rodapé*/
 footer {
     text-align: center;
