@@ -94,7 +94,7 @@ header .navbar .primary:hover{
     top: 5vmin;
     left: -7vmin;    
     background-color: #fff;
-    box-shadow: 25px 35px 50px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 25px 35px 50px 0 rgba(0, 0, 0, 0.4);
     border-radius: 3px;
     padding: 10vmin 8vmin 10vmin 12vmin;
 }
@@ -149,14 +149,16 @@ header .navbar .primary:hover{
 
 .post-index .post-left {
     width: 640px;
+    margin-bottom: 50px;
     float: left;
-    box-shadow:  rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.6);
 }
 
 .post-index .post-right{
     width: 240px;
+    margin-bottom: 50px;
     float: right;
-    box-shadow: 10px 1 12px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.6);
 }
 
 .post-index .post-left .post {
@@ -209,7 +211,6 @@ header .navbar .primary:hover{
     font-size: 0.9em;
     color: rgba(0, 0, 0, 0.5);
 }
-
 
 /*Rodapé*/
 footer {
