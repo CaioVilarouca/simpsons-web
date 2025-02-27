@@ -147,6 +147,18 @@ header .navbar .primary:hover{
     margin: 0 auto;
 }
 
+.post-index .post-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.post-index .post-title img{
+    width: 250px;   
+}
+
+.post-index .post-title{
+}
+
 .post-index .post-left {
     width: 640px;
     margin-bottom: 50px;
@@ -216,7 +228,7 @@ header .navbar .primary:hover{
 .galley{
     width: 920px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 .galley .div-columns img {
     width: 200px;
